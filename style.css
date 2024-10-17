@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -453,3 +454,381 @@
     right: -160px;
     scale: 0.8;
   }
+=======
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>div>input{
+width: 79.8%;
+height: 98%;
+background-color: rgb(33, 33, 33);
+border-radius: 5px 0px 0px 5px;
+border: none;
+}
+header>div>button{
+    width: 20%;
+   height: 100%;
+   border-radius: 0px 5px 5px 0px;
+   border: none;
+}
+header>div:nth-child(1){
+   width: 30%;
+}
+header>div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 6vh;;
+    border-radius: 5px ;
+  background-color: white;
+}
+header>div:nth-child(3){
+    border: 1px solid green;
+width: 15%;
+height: 5vh;
+display: flex;
+justify-content: center;
+align-items: center;
+   color: white;
+} 
+header>div:nth-child(4){
+    border: 1px solid rgb(15, 0, 128);
+    width: 7%;
+    height: 5vh;;
+    display: flex;
+ justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+header>div:nth-child(3)>a{
+    text-decoration: none;
+    color: white;
+}
+.baner-3 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.data{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    height: 60vh;
+    background-color: black;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: red;
+   border-radius: 50%;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.car{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.car>div{
+    background-color: white;
+    width: 90%;
+    width: 24%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.car div img{
+    width: 80%;
+    margin: 30px;
+}
+
+.baner-3{
+width: 95%;
+margin: auto;
+
+}
+.baner-3>div{
+    width: 32%;
+}
+
+.youtube>iframe{
+    width: 100%;
+    margin: auto;
+    height: 60vh;
+    border-radius: 20px;
+}
+#carouselExample{
+    width: 95%;
+    margin: auto;
+}
+
+.connect input{
+   width: 40%;
+   height: 6vh; 
+   border-radius: 5px 0px 0px 5px;
+   border: 1px light black;
+   font-weight: bold;
+}
+.connect button{
+    width: 10%;
+    height: 5.9vh;
+    background-color: black;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    font-weight: bold;
+}
+
+.footer{
+    margin-top: 10%;
+background-color: black;
+display: 100%;
+height: auto;
+position: relative;
+border-radius: 0px 0px 0px 10px;
+padding: 0px 0px 10px 0px;
+}
+.footer>div>img{
+position: absolute;
+    width: 10%;
+    border-radius: 50%;
+    border: 20px;
+    top: -15%;
+    left: 45%;
+}
+.text-center{
+    margin-top: 80px;
+}
+.footer>div:nth-child(2){
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+.footer hr{
+    width: 95%;
+    margin: auto;
+border: 1px solid rgb(255, 255, 255)
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+
+}
+.d-flex>div{
+    padding-left: 40px;
+}
+.d-flex>div a{
+    text-decoration: none;
+   color: rgb(150,150,150);
+
+}
+.get-in{
+    color: rgb(150,150,150);
+}
+.right{
+  margin: 10px 0px 10px 0px;
+}
+.antother{
+    color: rgb(150,150,150);
+}
+
+.king{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+#king-2{
+    width: 70%;
+}
+#touch-in{
+    width: 40%;
+}
+.king hr{
+    
+        border: none;
+        border-top: 1px solid red; /* Adjust the thickness and color as needed */
+        width: 15%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the horizontal rule */
+      
+      
+}
+.recent-search>div:nth-child(4) img{
+    width: 15%;
+  height: 10vh;
+  border-radius: 5px;
+}
+.third img{
+    width: 90%;
+    height: 15vh;
+    border-radius: 5px;
+}
+
+
+
+.recent-search {
+    display: none;
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    height: 55vh;
+    background-color: white;
+    left: 0%;
+    bottom: 30%;
+    right: 22%;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 1000; /* Ensure recent search appears above other content */
+}
+
+#search-container {
+    position: relative; 
+}
+
+#search-container:hover .recent-search {
+    display: block;
+    top: calc(100% + 225px); /* Position just below search box */
+}
+
+
+
+.navbar {
+    position: relative;
+    padding: 10px 0;
+    background-color: rgb(20, 20, 29);
+    /* background-color: black; */
+}
+.navbar a{
+    color: white;
+}
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Center align the navbar items */
+}
+
+.nav-item {
+    margin: 0 20px; /* Adjust the spacing between navbar items */
+    position: relative;
+    /* Add the following styles for underline animation */
+    position: relative;
+    display: inline-block;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: white; /* Set link color to white */
+    position: relative;
+}
+
+.nav-item::after {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 29px; /* Adjust the position of the underline */
+    width: 100%;
+    height: 3px; /* Adjust the height of the underline */
+    background-color: red; /* Example color for the underline */
+    transform: scaleX(0); /* Initial state for the underline */
+    transition: transform 0.5s ease;
+    transform-origin: bottom right;
+}
+
+.nav-item:hover::after {
+    transform: scaleX(1); /* Scale the underline on hover */
+    transform-origin: bottom left;
+}
+
+.special-link {
+    color: blue; /* Example color for special link */
+}
+
+/* Dropdown menu styles */
+.nav-display-1{
+    width: 600px;
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px); /* Changed background color to black */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 999;
+    justify-content: space-around;
+}
+.nav-display-2{
+    width: 600px;
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px); /* Changed background color to black */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 999;
+    justify-content: space-around;
+}
+.nav-display-3{
+    width: 600px;
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px); /* Changed background color to black */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 999;
+    justify-content: space-around;
+}
+.nav-display-4{
+    width: 600px;
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px); /* Changed background color to black */
+    padding: 10px; /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 999;
+    justify-content: space-around;
+}
+.nav-item:hover .nav-display-1, 
+.nav-item:hover .nav-display-2, 
+.nav-item:hover .nav-display-3, 
+.nav-item:hover .nav-display-4 {
+    display: flex;
+}
+
+.nav-display-1 .m-3 {
+    margin: 10px 0;
+}
+
+.fw-medium {
+    font-weight: bold;
+}
+
+>>>>>>> ffa9fa4ae8e127f2893ff15598a05d57679c5513
